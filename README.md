@@ -1,2 +1,28 @@
 # Calcula Rotas
-## A ideia é apresentar uma ferramenta de cálculo de rotas. O funcionamento será muito simples, onde o usuário se cadastrará na ferramenta e poderá usufruir da ferramenta, alocando o destino da carga e de onde está saindo. A ferramenta deverá apontar a rota mais econômica de tempo e quilometragem. Deverá também apresentar ao menos uma rota alternativa. 
+
+## Ideia Geral:
+
+    A ideia geral da ferramenta é calcular uma rota apresentando a melhor alternativa em tempo/quilometragem e também apresentar uma rota alternativa para escolha do usuário.
+
+## Requisitos:
+    
+    * O sistema deve ter um sistema de login para que somente usuários cadastrados tenham acesso à ferramenta;
+    * O sistema deverá enviar email de recuperação de senha para email cadastrado pelo usuário;
+    * A ferramenta deve ter um sistema de cálculo para medir a distância da rota, onde o usuário consiga alocar mais destinos que foram necessários para entrega; 
+    * O sistema deve mostrar o tempo médio de percorrimento dessa distância;
+    * A ferramenta deve dispor de ao menos uma rota alternativa. A rota alternativa deverá ser mostrada juntamente do motivo dela ser uma rota secundária (maior tempo, maior quilometragem, etc);
+
+## Funcionalidades:
+
+    * Página inicial/login, com apresentação da ferramenta e tela de login;
+    * Página de recuperação de senha com envio de recuperação para email cadastrado;
+    * Página de cálculo de rota;
+
+## Ferramentas utilizadas no projeto:
+### Front-end: Angular
+### Back-end: Spring Boot
+### DB: MySQL
+### Mensageria: RabbitMQ
+### Segurança: Keycloak
+
+
