@@ -2,7 +2,7 @@
 
 ## Ideia Geral:
 
-    A ideia geral da ferramenta é calcular uma rota apresentando a melhor alternativa em tempo/quilometragem e também apresentar uma rota alternativa para escolha do usuário.
+A ideia geral da ferramenta é calcular uma rota apresentando a melhor alternativa em tempo/quilometragem e também apresentar uma rota alternativa para escolha do usuário.
 
 ## Requisitos:
     
