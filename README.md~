@@ -19,10 +19,10 @@
     * Página de cálculo de rota;
 
 ## Ferramentas utilizadas no projeto:
-    Front-end: Angular
-    Back-end: Spring Boot
-    DB: MySQL
-    Mensageria: RabbitMQ
-    Segurança: Keycloak
+### Front-end: Angular
+### Back-end: Spring Boot
+### DB: MySQL
+### Mensageria: RabbitMQ
+### Segurança: Keycloak
 
 

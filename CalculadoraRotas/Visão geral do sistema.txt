@@ -1,0 +1,48 @@
+Visão geral do sistema:
+O projeto deve calcular rotas para entrega, a fim de que a pessoa consiga saber em quanto tempo e qual a distância média será percorrida do local de saída até o destino. 
+
+Requisitos:
+*O sistema deve ter um sistema de login para que somente usuários cadastrados tenham acesso à ferramenta;
+*O sistema deverá enviar email de recuperação de senha e deveu
+*A ferramenta deve ter um sistema de cálculo para medir a distância entre a rota, onde o usuário consiga alocar mais destinos que foram necessários para entrega; 
+*O sistema deve mostrar o tempo médio de percorrimento dessa distância;
+*A ferramenta deve dispor de outro botão solicitando outra rota alternativa. A rota alternativa deverá ser mostrada juntamente do motivo dela ser uma rota secundária (maior tempo, maior quilometragem, etc)
+
+Funcionalidades:
+-Página inicial/login, com apresentação da ferramenta e tela de login;
+-Página de recuperação de senha com envio de recuperação para email cadastrado;
+-Página de cálculo de rota;
+
+Ferramentas:
+Frontend: Angular
+
+Backend: Java com Spring Boot
+
+Banco de dados: MySQL
+
+Autenticação: Keycloack
+
+Mensageria: RabbitMQ
+
+Tabelas do banco de dados: 
+
+tabela_usuario
+tabela_pais
+tabela_cidade
+tabela_uf
+tabela_endereco
+tabela_pessoa
+tabela_usuario
+tabela_pessoaEndereco
+tabela_pessoaFisica
+tabela_pessoaJuridica
+tabela_cliente
+tabela_transportadora
+tabela_tipoTransporte
+tabela_transportadoraTipoTransporte
+tabela_produto
+
+
+
+Entidades
+
