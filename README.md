@@ -14,15 +14,14 @@ A ideia geral da ferramenta é calcular uma rota apresentando a melhor alternati
 
 ## Funcionalidades:
 
-    * Página inicial/login, com apresentação da ferramenta e tela de login;
-    * Página de recuperação de senha com envio de recuperação para email cadastrado;
-    * Página de cálculo de rota;
+* Página de recuperação de senha com envio de recuperação para email cadastrado;
+* Página de cálculo de rota;
 
 ## Ferramentas utilizadas no projeto:
-    Front-end: Angular
-    Back-end: Spring Boot
-    DB: MySQL
-    Mensageria: RabbitMQ
-    Segurança: Keycloak
+* Front-end: Angular
+* Back-end: Spring Boot
+* DB: MySQL
+* Mensageria: RabbitMQ
+* Segurança: Keycloak
 
 
