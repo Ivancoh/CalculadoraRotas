@@ -1,6 +1,6 @@
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
-import org.sprinframework.http.ResponseEntity;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -29,7 +29,7 @@ public class PaisController {
     }
 
     @PostMapping
-    public Responseentity<Pais> createPais(@RequestBody Pais pais) {
+    public ResponseEntity<Pais> createPais(@RequestBody Pais pais) {
         Pais createdPais = paisService.cretePais(pais);
         return new ReponseEntity<>(createPais, HttpStatus.CREATED);
     }

@@ -1,4 +1,4 @@
-import org.springframework.beans.factory.annotation.Autorwired;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.List;
 @Service
 public class EnderecoService {
 
-    @Autorwired
+    @Autowired
     private EnderecoRepository enderecoRepository;
 
     public List<Endereco> getAllEndereco() {

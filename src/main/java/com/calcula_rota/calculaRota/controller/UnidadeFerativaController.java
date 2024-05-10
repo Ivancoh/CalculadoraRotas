@@ -1,7 +1,7 @@
-import org.sprinframework.beans.factory.annotation.Autowired;
-import org.sprinframework.http.HttpStatus;
-import org.sprinframework.http.ResponseEntity;
-import org.sprinframework.web.bind.annotation.*;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -15,13 +15,13 @@ public class UnidadeFerativaController {
     @GetMapping
     public ResponseEntity<List<UnidadeFederativa>> getAllUnidadesFederativas() {
         List<UnidadeFederativa> unidadesFederativas = unidadeFederativaService.getAllUnidadesFederativas();
-        return new ResponseEntity<>(unidadesFederativas, HttpsStatus.OK);
+        return new ResponseEntity<>(unidadesFederativas, HttpStatus.OK);
     }
 
     @GetMapping("/{id}")
     public ResponseEntity<UnidadeFederativa> getUnidadeFederativaById(@PathVariable Integer id) {
         UnidadeFederativa unidadeFederativa = unidadeFederativaService.getUnidadeFederativaById(id);
-        if (unidadefederativa != null) {
+        if (unidadeFederativa != null) {
             return new ResponseEntity<>(unidadeFederativa, HttpStatus.OK);
         } else {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);

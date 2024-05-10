@@ -4,6 +4,6 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository
-public interface UnidadeFederativaRepository exteds JpaRepository<UnidadeFederativa, Integer> {
+public interface UnidadeFederativaRepository extends JpaRepository<UnidadeFederativa, Integer> {
     
 }

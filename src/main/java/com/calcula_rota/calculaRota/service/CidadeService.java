@@ -27,6 +27,6 @@ public class CidadeService {
     }
 
     public void deleteCidade(Integer id) {
-        cidadeRepository;deleteById(id);
+        cidadeRepository.deleteById(id);
     }
 }

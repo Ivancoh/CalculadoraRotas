@@ -49,7 +49,7 @@ public class Cidade {
         this.nmCidade = nmCidade;
     }
 
-    public Unidadefederativa getUnidadeFederativa() {
+    public UnidadeFederativa getUnidadeFederativa() {
         return unidadeFederativa;
     }
 

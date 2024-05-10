@@ -13,7 +13,7 @@ import java.time.LocalDateTime;
 @Table(name = "TbPais")
 public class Pais {
     @Id
-    @GeneratedValue(strategy = GenerationType.INDETITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer cdPais;
 
     @NotBlank
